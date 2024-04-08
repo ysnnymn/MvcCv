@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+@Html.Action("PartialHead","Default")
+<body id="page-top">
+    <!-- Navigation-->
+    @Html.Action("PartialNavbar","Default")
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        @Html.Action("PartialAbout", "Default")
+        <hr class="m-0" />
+        <!-- Experience-->
+        @Html.Action("PartialExperience", "Default")
+        <hr class="m-0" />
+        <!-- Education-->
+        @Html.Action("PartialEducation", "Default")
+        <hr class="m-0" />
+        <!-- Skills-->
+        @Html.Action("PartialSkills", "Default")
+        <hr class="m-0" />
+        <!-- Interests-->
+        @Html.Action("PartialInteresets", "Default")
+        <hr class="m-0" />
+        <!-- Awards-->
+        @Html.Action("PartialAwards", "Default")
+        @Html.Action("PartialContact", "Default")
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="/cv/js/scripts.js"></script>
+</body>
+</html>
